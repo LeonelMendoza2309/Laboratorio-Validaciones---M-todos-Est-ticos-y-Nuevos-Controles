@@ -8,7 +8,7 @@ Lic. en Ing. de Sistemas Computacionales
 
 ---
 
-# HPAIII - Laboratorio 3: Métodos Estáticos y Nuevos Controles
+# HPAIII - Laboratorio: Métodos Estáticos y Nuevos Controles
 
 **Autor:** Leonel Mendoza (1IL133)
 
