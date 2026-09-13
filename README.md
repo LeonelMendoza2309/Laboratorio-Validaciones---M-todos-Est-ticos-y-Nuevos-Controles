@@ -1,22 +1,37 @@
 <div align="center">
 
-# UNIVERSIDAD TECNOLOGICA DE PANAMÁ 
-Facultad de Ingeniería en Sistemas Y Computación 
+# UNIVERSIDAD TECNOLOGICA DE PANAMÁ  
+Facultad de Ingeniería en Sistemas Y Computación  
 Lic. en Ing. de Sistemas Computacionales
 
 </div>
 
 ---
 
-# HPAIII-Laboratorio-2-Programación-Orientada-a-Objetos
+# HPAIII - Laboratorio 2: Programación Orientada a Objetos
 
-**Autor:** Leonel Mendoza 1IL133
+**Autor:** Leonel Mendoza (1IL133)
+
+---
+
+## Estructura del Repositorio (carpetas con actividades)
+
+A continuación se muestran primero las carpetas con las actividades desarrolladas en este laboratorio:
+
+```
+Laboratorio-Validaciones---M-todos-Est-ticos-y-Nuevos-Controles/
+├── Actividad1                         # Proyecto C#: Ejemplo básico (Libro de calificaciones)
+├── Actividad2                         # Proyecto C#: Entrada por consola y parámetros
+├── Actividad3                         # Proyecto C#: Uso de propiedades y constructores
+└── README.md                          # Documentación del repositorio
+```
+
+En cada carpeta encontrarás el proyecto C# correspondiente con su código fuente, archivos de solución/proyecto y recursos necesarios.
 
 ---
 
 ## Tabla de Contenidos
 - [Objetivo del Laboratorio](#objetivo-del-laboratorio)
-- [Estructura del Repositorio](#estructura-del-repositorio)
 - [Tecnología principal](#tecnología-principal)
 - [Requisitos](#requisitos)
 - [Instalación y ejecución](#instalación-y-ejecución)
@@ -30,37 +45,20 @@ Lic. en Ing. de Sistemas Computacionales
 ## Objetivo del Laboratorio
 
 El objetivo principal de este laboratorio es:
-- Comprender y aplicar los conceptos fundamentales de Programación Orientada a Objetos (POO)
-- Implementar correctamente clases, objetos, constructores y propiedades
-- Dominar conceptos avanzados como herencia, polimorfismo, encapsulamiento e interfaces
-- Desarrollar soluciones prácticas mediante la aplicación de principios SOLID
-- Resolver problemas del mundo real utilizando paradigmas orientados a objetos
-- Mejorar habilidades de diseño y arquitectura de software
-
----
-
-## Estructura del Repositorio
-
-A continuación una versión simplificada de la estructura del proyecto con una breve descripción de cada carpeta relevante:
-
-```
-HPAIII-Laboratorio-2-Programación-Orientada-a-Objetos/
-├── Actividad1                         # Proyecto C#: Ejemplo básico (Libro de calificaciones)
-├── Actividad2                         # Proyecto C#: Entrada por consola y parámetros
-├── Actividad3                         # Proyecto C#: Uso de propiedades y constructores
-└── README.md                          # Documentación del repositorio
-
-
-```
-### En esta sección se redactan los proyectos/actividades realizadas:
+- Comprender y aplicar los conceptos fundamentales de Programación Orientada a Objetos (POO).
+- Implementar correctamente clases, objetos, constructores y propiedades.
+- Dominar conceptos avanzados como herencia, polimorfismo, encapsulamiento e interfaces.
+- Desarrollar soluciones prácticas mediante la aplicación de principios SOLID.
+- Resolver problemas del mundo real utilizando paradigmas orientados a objetos.
+- Mejorar habilidades de diseño y arquitectura de software.
 
 ---
 
 ## Tecnología principal
 
-- Lenguaje: C# (Curso centrado en este lenguaje)
+- Lenguaje: C# (curso centrado en este lenguaje)
 - Plataforma / Runtime: .NET 10.0 (TargetFramework: `net10.0`)
-- Entorno de desarrollo sugerido: Visual Studio Community 2022
+- Entorno de desarrollo sugerido: Visual Studio Community 2022 o Visual Studio Code con extensión C#
 - Compilador: Roslyn (csc)
 - Control de versiones y alojamiento: Git / GitHub
 
@@ -69,7 +67,6 @@ HPAIII-Laboratorio-2-Programación-Orientada-a-Objetos/
 ## Requisitos
 
 Requisitos mínimos para compilar y ejecutar los proyectos:
-
 - .NET 10.0 SDK instalado (`dotnet --version` → 10.x)
 - Visual Studio 2022 (recomendado) o Visual Studio Code + extensión C#
 - Git para clonar el repositorio
@@ -79,22 +76,22 @@ Requisitos mínimos para compilar y ejecutar los proyectos:
 
 ## Instalación y ejecución
 
-Pasos de una máquina con .NET instalado.
+Pasos en una máquina con .NET instalado.
 
-Primero debe clonar el repositorio:
+Clonar el repositorio:
 
 ```bash
-git clone https://github.com/LeonelMendoza2309/HPAIII-Laboratorio-2-Programaci-n-Orientada-a-Objetos.git
-cd HPAIII-Laboratorio-2-Programaci-n-Orientada-a-Objetos
+git clone https://github.com/LeonelMendoza2309/Laboratorio-Validaciones---M-todos-Est-ticos-y-Nuevos-Controles.git
+cd Laboratorio-Validaciones---M-todos-Est-ticos-y-Nuevos-Controles
 ```
 
 Ejecutar con Visual Studio (GUI):
 1. Abrir Visual Studio 2022.
-2. Abrir la carpeta del repositorio o cada `.slnx`/`.csproj` desde Archivo → Abrir.
+2. Abrir la carpeta del repositorio o los archivos `.sln`/`.csproj` desde Archivo → Abrir.
 3. En el Explorador de soluciones, seleccionar el proyecto que desea ejecutar y marcarlo como "Startup Project".
 4. Ejecutar con F5 (depuración) o Ctrl+F5 (sin depuración).
 
-si se desea Tambien puede ejecutar con dotnet CLI de esta manera (es la línea de comandos):
+Ejecutar con dotnet CLI (línea de comandos):
 
 ```bash
 # Actividad1
@@ -106,12 +103,12 @@ cd ../Actividad2
 dotnet run
 
 # Actividad3
-cd ../Actividad3_Variables_de_Instancia_y_Propiedades
+cd ../Actividad3
 dotnet run
 ```
 
 Notas adicionales:
-- Algunos programas leen entrada desde consola (Console.ReadLine). Introduzca los datos cuando se le solicite.
+- Algunos programas leen entrada desde consola (`Console.ReadLine`). Introduce los datos cuando se te solicite.
 - Para limpiar artefactos de compilación: `dotnet clean` dentro del proyecto o desde la raíz para todos.
 
 ---
@@ -127,16 +124,15 @@ Notas adicionales:
 
 ## Problemas y soluciones
 
-Lista de problemas relevantes detectados durante el desarrollo y cómo se resolvieron. Si quieres añadir evidencia visual, coloca la imagen en `docs/result.png` y referencia la ruta más abajo.
+Lista de problemas detectados durante el desarrollo y cómo se resolvieron:
 
 | # | Problema | Descripción | Acción tomada |
 |---:|---------|-------------|---------------|
 | 1 | NullReferenceException | Objetos o variables no inicializadas producían fallos en tiempo de ejecución | Inicializar en constructores y añadir validaciones antes de usar referencias nulas |
 | 2 | Campos públicos vs propiedades | Uso de campos públicos exponía estado interno | Cambiar campos a privados y exponer mediante propiedades (`get`/`set`) con validaciones cuando aplica |
 | 3 | Namespaces duplicados | Clases con el mismo nombre en diferentes proyectos | Definir namespaces por actividad para evitar choques al usar varios proyectos juntos |
-| 4 | Mensajes de entrada poco claros | Usuarios no iban a saber cuándo ingresar datos en consola | Añadir mensajes informativos antes de `Console.ReadLine()` y documentar la entrada requerida |
+| 4 | Mensajes de entrada poco claros | Usuarios no sabían cuándo ingresar datos en consola | Añadir mensajes informativos antes de `Console.ReadLine()` y documentar la entrada requerida |
 
-```markdown
 ### Resultado visual del sistema
 Actividad 1
 
@@ -148,15 +144,12 @@ Actividad 2
 Actividad 3
 <img width="512" height="501" alt="image" src="https://github.com/user-attachments/assets/a620dcf0-e3f8-467e-bb1f-e11184ce3bf0" />
 
-
-```
-
 ---
 
 ## Resultados
 
 Funcionalidades implementadas destacadas:
-- Actividad1: Proyecto introductorio con clase `LibroCalificacion` y método para mostrar un mensaje en consola.
+- Actividad1: Proyecto introductorio con la clase `LibroCalificacion` y método para mostrar información en consola.
 - Actividad2: Lectura de entrada por consola y uso de parámetros para personalizar la salida.
 - Actividad3: Implementación de propiedades, encapsulamiento y constructores parametrizados.
 
@@ -176,7 +169,7 @@ Propiedades funcionando correctamente
 
 ---
 
-## Conclusiones del trabajo
+## Conclusiones
 
 - Se afianzaron los conceptos fundamentales de POO aplicados en C#.
 - Se recomienda añadir pruebas unitarias y mayor validación de entrada para robustecer los ejercicios.
