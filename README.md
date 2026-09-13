@@ -203,17 +203,14 @@ Jugador tiró 3 + 4 = 7
 JUGADOR GANOO
 =====================================
 ```
-```
+
 MDI
 <img width="673" height="368" alt="image" src="https://github.com/user-attachments/assets/eb61f86a-760e-4cbe-a9e0-407a8a56f2e2" />
 
-```
 
-```
 DataGrid:
 <img width="619" height="466" alt="image" src="https://github.com/user-attachments/assets/4d2e0530-9895-4efc-a757-fcb1ac91cdff" />
 
-```
 
 ---
 
