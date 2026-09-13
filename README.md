@@ -26,8 +26,6 @@ Laboratorio-Validaciones---M-todos-Est-ticos-y-Nuevos-Controles/
 └── README.md                                      # Documentación del repositorio
 ```
 
-En cada carpeta encontrarás el proyecto C# correspondiente con su código fuente, archivos de solución/proyecto y recursos necesarios.
-
 ---
 
 ## Tabla de Contenidos
@@ -36,7 +34,6 @@ En cada carpeta encontrarás el proyecto C# correspondiente con su código fuent
 - [Tecnología principal](#tecnología-principal)
 - [Requisitos](#requisitos)
 - [Instalación y ejecución](#instalación-y-ejecución)
-- [Fecha de Ejecución](#fecha-de-ejecución)
 - [Problemas y soluciones](#problemas-y-soluciones)
 - [Resultados](#resultados)
 - [Conclusiones](#conclusiones)
@@ -163,15 +160,6 @@ cd MDI-Forms
 
 ---
 
-## Fecha de Ejecución
-
-- Inicio del Laboratorio: 01/09/2026
-- Finalización del Laboratorio: 08/09/2026
-- Entrega: 08/09/2026
-- Fecha de última actualización: 13/09/2026
-
----
-
 ## Problemas y soluciones
 
 Lista de problemas detectados durante el desarrollo y cómo se resolvieron:
@@ -180,9 +168,8 @@ Lista de problemas detectados durante el desarrollo y cómo se resolvieron:
 |---:|---------|-------------|---------------|
 | 1 | Validación de correo inválida | Expresión regular incompleta no validaba correctamente emails | Mejorar el patrón Regex: `@"^[^@\s]+@[^@\s]+\.[^@\s]+$"` |
 | 2 | Métodos no estáticos | Métodos de utilidad requería instanciación | Cambiar a métodos `static` en clase `Utilidades` |
-| 3 | Ventanas múltiples en MDI | Abrir la misma ventana varias veces generaba duplicados | Verificar si la ventana existe antes de crear: `Application.OpenForms.OfType<>().FirstOrDefault()` |
-| 4 | Lógica del juego Craps | Flujo incompleto del juego no reconocía todos los escenarios | Implementar enumeradores y switch case para manejar estados |
-| 5 | Espacios en blanco en validaciones | Validación no consideraba espacios en blanco | Usar `string.IsNullOrEmpty()` y `string.IsNullOrWhiteSpace()` |
+| 3 | Lógica del juego Craps | Flujo incompleto del juego no reconocía todos los escenarios | Implementar enumeradores y switch case para manejar estados |
+| 4 | Espacios en blanco en validaciones | Validación no consideraba espacios en blanco | Usar `string.IsNullOrEmpty()` y `string.IsNullOrWhiteSpace()` |
 
 ---
 
@@ -223,13 +210,10 @@ JUGADOR GANOO
 
 - Se comprendieron correctamente los métodos estáticos y su aplicación en validaciones.
 - Las expresiones regulares son herramientas poderosas para validación de datos.
-- Los enumeradores facilitan el manejo de estados y valores constantes en la lógica de programas.
 - Las interfaces MDI permiten crear aplicaciones complejas con múltiples ventanas.
-- Se recomienda añadir más validaciones de entrada y manejo de excepciones para robustecer los ejercicios.
 - Los controles de Windows Forms como DataGridView son útiles para mostrar datos estructurados.
 
 ---
 
-**Última actualización:** 13/09/2026  
-**Versión:** 3.0  
+**Última actualización:** 13/09/2026   
 **Estado:** Completado y entregado
