@@ -8,7 +8,7 @@ Lic. en Ing. de Sistemas Computacionales
 
 ---
 
-# HPAIII - Laboratorio 2: Programación Orientada a Objetos
+# HPAIII - Laboratorio 3: Métodos Estáticos y Nuevos Controles
 
 **Autor:** Leonel Mendoza (1IL133)
 
@@ -16,14 +16,14 @@ Lic. en Ing. de Sistemas Computacionales
 
 ## Estructura del Repositorio (carpetas con actividades)
 
-A continuación se muestran primero las carpetas con las actividades desarrolladas en este laboratorio:
+A continuación se muestran las carpetas con los proyectos desarrollados en este laboratorio:
 
 ```
 Laboratorio-Validaciones---M-todos-Est-ticos-y-Nuevos-Controles/
-├── Actividad1                         # Proyecto C#: Ejemplo básico (Libro de calificaciones)
-├── Actividad2                         # Proyecto C#: Entrada por consola y parámetros
-├── Actividad3                         # Proyecto C#: Uso de propiedades y constructores
-└── README.md                          # Documentación del repositorio
+├── HPAIII-Laboratorio#3                          # Proyecto C#: DataGridView con métodos estáticos
+├── Juego_De_Craps_lab3                           # Proyecto C#: Juego de Craps con enumeradores
+├── MDI-Forms                                      # Proyecto C#: Aplicación MDI (Multiple Document Interface)
+└── README.md                                      # Documentación del repositorio
 ```
 
 En cada carpeta encontrarás el proyecto C# correspondiente con su código fuente, archivos de solución/proyecto y recursos necesarios.
@@ -32,6 +32,7 @@ En cada carpeta encontrarás el proyecto C# correspondiente con su código fuent
 
 ## Tabla de Contenidos
 - [Objetivo del Laboratorio](#objetivo-del-laboratorio)
+- [Descripción de Proyectos](#descripción-de-proyectos)
 - [Tecnología principal](#tecnología-principal)
 - [Requisitos](#requisitos)
 - [Instalación y ejecución](#instalación-y-ejecución)
@@ -45,71 +46,120 @@ En cada carpeta encontrarás el proyecto C# correspondiente con su código fuent
 ## Objetivo del Laboratorio
 
 El objetivo principal de este laboratorio es:
-- Comprender y aplicar los conceptos fundamentales de Programación Orientada a Objetos (POO).
-- Implementar correctamente clases, objetos, constructores y propiedades.
-- Dominar conceptos avanzados como herencia, polimorfismo, encapsulamiento e interfaces.
-- Desarrollar soluciones prácticas mediante la aplicación de principios SOLID.
-- Resolver problemas del mundo real utilizando paradigmas orientados a objetos.
-- Mejorar habilidades de diseño y arquitectura de software.
+- Comprender y aplicar métodos estáticos en C#.
+- Trabajar con controles avanzados de Windows Forms (DataGridView, MDI).
+- Implementar validaciones mediante expresiones regulares.
+- Utilizar enumeradores para estados y valores constantes.
+- Desarrollar interfaces gráficas con MDI (Multiple Document Interface).
+- Aplicar conceptos de encapsulamiento e interfaces en aplicaciones de escritorio.
+
+---
+
+## Descripción de Proyectos
+
+### 1. HPAIII-Laboratorio#3 (DataGridView y Métodos Estáticos)
+**Descripción:** Aplicación que demuestra el uso de DataGridView con una clase modelo `Persona` y validaciones mediante métodos estáticos.
+
+**Componentes principales:**
+- `Persona.cs`: Clase modelo con propiedades (ID, Nombre, Apellidos, Correo, FechaNacimiento, Salario)
+- `Utilidades.cs`: Clase con métodos estáticos para validación de correo y cadenas vacías
+- `Form1.cs`: Formulario Windows con DataGridView para gestionar datos de personas
+
+**Tecnologías:** Windows Forms, DataGridView, Regex, Métodos estáticos
+
+### 2. Juego_De_Craps_lab3 (Enumeradores y Lógica de Juego)
+**Descripción:** Implementación del juego de Craps (juego de dados) utilizando enumeradores para estados del juego.
+
+**Componentes principales:**
+- `Craps.cs`: Clase que implementa la lógica del juego con:
+  - Enumerador `Estado` (CONTINUAR, GANAR, PERDER)
+  - Enumerador `NombDados` (valores especiales del juego)
+  - Método `Jugar()`: Control del flujo del juego
+  - Método `TirarDados()`: Simula el lanzamiento de dos dados
+
+**Tecnologías:** Enumeradores, Switch case, Números aleatorios
+
+### 3. MDI-Forms (Multiple Document Interface)
+**Descripción:** Aplicación con interfaz MDI que permite abrir múltiples ventanas secundarias.
+
+**Componentes principales:**
+- `Form1.cs`: Formulario principal (MDI Parent) con barra de herramientas
+- `Form2.cs`: Formulario secundario
+- `frmVentanaTexto.cs`: Ventana de texto reutilizable
+- Menú y botones de herramientas para crear nuevas ventanas
+
+**Tecnologías:** Windows Forms, MDI, Controles de usuario, ToolStrip
 
 ---
 
 ## Tecnología principal
 
 - Lenguaje: C# (curso centrado en este lenguaje)
-- Plataforma / Runtime: .NET 10.0 (TargetFramework: `net10.0`)
-- Entorno de desarrollo sugerido: Visual Studio Community 2022 o Visual Studio Code con extensión C#
+- Plataforma / Runtime: .NET Framework 4.7.2
+- Entorno de desarrollo sugerido: Visual Studio Community 2019 o superior
 - Compilador: Roslyn (csc)
 - Control de versiones y alojamiento: Git / GitHub
+- Controles: Windows Forms, DataGridView, ToolStrip
 
 ---
 
 ## Requisitos
 
 Requisitos mínimos para compilar y ejecutar los proyectos:
-- .NET 10.0 SDK instalado (`dotnet --version` → 10.x)
-- Visual Studio 2022 (recomendado) o Visual Studio Code + extensión C#
+- .NET Framework 4.7.2 o superior instalado
+- Visual Studio 2019 o 2022 (recomendado) o Visual Studio Code + extensión C#
 - Git para clonar el repositorio
-- Sistema operativo: Windows 10 o superior (los proyectos .NET pueden ejecutarse en Linux/macOS con dotnet CLI)
+- Sistema operativo: Windows 10 o superior (requerido para Windows Forms)
 
 ---
 
 ## Instalación y ejecución
 
-Pasos en una máquina con .NET instalado.
+Pasos en una máquina con .NET Framework instalado.
 
-Clonar el repositorio:
+### Clonar el repositorio:
 
 ```bash
 git clone https://github.com/LeonelMendoza2309/Laboratorio-Validaciones---M-todos-Est-ticos-y-Nuevos-Controles.git
 cd Laboratorio-Validaciones---M-todos-Est-ticos-y-Nuevos-Controles
 ```
 
-Ejecutar con Visual Studio (GUI):
-1. Abrir Visual Studio 2022.
-2. Abrir la carpeta del repositorio o los archivos `.sln`/`.csproj` desde Archivo → Abrir.
-3. En el Explorador de soluciones, seleccionar el proyecto que desea ejecutar y marcarlo como "Startup Project".
-4. Ejecutar con F5 (depuración) o Ctrl+F5 (sin depuración).
+### Ejecutar con Visual Studio (GUI):
+1. Abrir Visual Studio 2019 o superior.
+2. Abrir la carpeta del repositorio o los archivos `.sln` desde Archivo → Abrir.
+3. En el Explorador de soluciones, seleccionar el proyecto que desea ejecutar.
+4. Marcar como "Startup Project" (clic derecho → Set as Startup Project).
+5. Ejecutar con F5 (depuración) o Ctrl+F5 (sin depuración).
 
-Ejecutar con dotnet CLI (línea de comandos):
+### Ejecutar cada proyecto por separado:
 
+#### HPAIII-Laboratorio#3:
 ```bash
-# Actividad1
-cd Actividad1
-dotnet run
-
-# Actividad2
-cd ../Actividad2
-dotnet run
-
-# Actividad3
-cd ../Actividad3
-dotnet run
+cd HPAIII-Laboratorio#3
 ```
+- Abrir `HPAIII-Laboratorio#3.sln` con Visual Studio
+- Ejecutar con F5
 
-Notas adicionales:
-- Algunos programas leen entrada desde consola (`Console.ReadLine`). Introduce los datos cuando se te solicite.
-- Para limpiar artefactos de compilación: `dotnet clean` dentro del proyecto o desde la raíz para todos.
+#### Juego_De_Craps_lab3:
+```bash
+cd Juego_De_Craps_lab3
+```
+- Abrir `Juego_De_Craps_lab3.sln` con Visual Studio
+- Ejecutar con F5
+- Introducir datos cuando se solicite en la consola
+
+#### MDI-Forms:
+```bash
+cd MDI-Forms
+```
+- Abrir `MDI-Forms.sln` con Visual Studio
+- Ejecutar con F5
+- Utilizar el menú o botones de herramientas para abrir nuevas ventanas
+
+### Notas adicionales:
+- Los proyectos de juego leen entrada desde consola (`Console.ReadLine`). Introduce los datos cuando se te solicite.
+- Para limpiar artefactos de compilación: clic derecho en solución → Limpiar solución.
+- MDI-Forms es una aplicación gráfica que requiere Windows.
 
 ---
 
@@ -118,7 +168,7 @@ Notas adicionales:
 - Inicio del Laboratorio: 01/09/2026
 - Finalización del Laboratorio: 08/09/2026
 - Entrega: 08/09/2026
-- Fecha de última actualización: 08/09/2026
+- Fecha de última actualización: 13/09/2026
 
 ---
 
@@ -128,54 +178,58 @@ Lista de problemas detectados durante el desarrollo y cómo se resolvieron:
 
 | # | Problema | Descripción | Acción tomada |
 |---:|---------|-------------|---------------|
-| 1 | NullReferenceException | Objetos o variables no inicializadas producían fallos en tiempo de ejecución | Inicializar en constructores y añadir validaciones antes de usar referencias nulas |
-| 2 | Campos públicos vs propiedades | Uso de campos públicos exponía estado interno | Cambiar campos a privados y exponer mediante propiedades (`get`/`set`) con validaciones cuando aplica |
-| 3 | Namespaces duplicados | Clases con el mismo nombre en diferentes proyectos | Definir namespaces por actividad para evitar choques al usar varios proyectos juntos |
-| 4 | Mensajes de entrada poco claros | Usuarios no sabían cuándo ingresar datos en consola | Añadir mensajes informativos antes de `Console.ReadLine()` y documentar la entrada requerida |
-
-### Resultado visual del sistema
-Actividad 1
-
-<img width="776" height="290" alt="image" src="https://github.com/user-attachments/assets/a92abcd2-99e0-4975-96d0-e55358fb03fc" />
-
-Actividad 2
-<img width="599" height="307" alt="image" src="https://github.com/user-attachments/assets/b710199f-afdc-4faa-842f-c7b8b8570911" />
-
-Actividad 3
-<img width="512" height="501" alt="image" src="https://github.com/user-attachments/assets/a620dcf0-e3f8-467e-bb1f-e11184ce3bf0" />
+| 1 | Validación de correo inválida | Expresión regular incompleta no validaba correctamente emails | Mejorar el patrón Regex: `@"^[^@\s]+@[^@\s]+\.[^@\s]+$"` |
+| 2 | Métodos no estáticos | Métodos de utilidad requería instanciación | Cambiar a métodos `static` en clase `Utilidades` |
+| 3 | Ventanas múltiples en MDI | Abrir la misma ventana varias veces generaba duplicados | Verificar si la ventana existe antes de crear: `Application.OpenForms.OfType<>().FirstOrDefault()` |
+| 4 | Lógica del juego Craps | Flujo incompleto del juego no reconocía todos los escenarios | Implementar enumeradores y switch case para manejar estados |
+| 5 | Espacios en blanco en validaciones | Validación no consideraba espacios en blanco | Usar `string.IsNullOrEmpty()` y `string.IsNullOrWhiteSpace()` |
 
 ---
 
 ## Resultados
 
-Funcionalidades implementadas destacadas:
-- Actividad1: Proyecto introductorio con la clase `LibroCalificacion` y método para mostrar información en consola.
-- Actividad2: Lectura de entrada por consola y uso de parámetros para personalizar la salida.
-- Actividad3: Implementación de propiedades, encapsulamiento y constructores parametrizados.
+### Funcionalidades implementadas destacadas:
 
-Salida esperada (ejemplo):
+#### HPAIII-Laboratorio#3:
+- Clase `Persona` con propiedades de ID, nombre, correo, fecha de nacimiento y salario
+- Métodos estáticos para validar correos electrónicos usando Regex
+- DataGridView para mostrar y gestionar colecciones de personas
+- Validaciones dinámicas en tiempo de ejecución
+
+#### Juego_De_Craps_lab3:
+- Simulación completa del juego de Craps
+- Uso de enumeradores para estados del juego y valores especiales
+- Lógica de control con switch case
+- Generación de números aleatorios para dados
+
+#### MDI-Forms:
+- Interfaz MDI con formulario padre
+- Múltiples ventanas secundarias independientes
+- Barra de herramientas (ToolStrip) para controlar las ventanas
+- Gestión de ventanas (BringToFront, Focus)
+
+### Salida esperada (ejemplo - Juego de Craps):
 
 ```
-========== RESULTADOS DEL LABORATORIO ==========
-Bienvenido al libro de calificaciones para 
- [Nombre del curso ingresado]
-
-Compilación sin errores
-Ejecución correcta del programa
-Validaciones implementadas
-Propiedades funcionando correctamente
-============================================
+========== JUEGO DE CRAPS ==========
+Jugador tiró 3 + 4 = 7
+JUGADOR GANOO
+=====================================
 ```
 
 ---
 
 ## Conclusiones
 
-- Se afianzaron los conceptos fundamentales de POO aplicados en C#.
-- Se recomienda añadir pruebas unitarias y mayor validación de entrada para robustecer los ejercicios.
+- Se comprendieron correctamente los métodos estáticos y su aplicación en validaciones.
+- Las expresiones regulares son herramientas poderosas para validación de datos.
+- Los enumeradores facilitan el manejo de estados y valores constantes en la lógica de programas.
+- Las interfaces MDI permiten crear aplicaciones complejas con múltiples ventanas.
+- Se recomienda añadir más validaciones de entrada y manejo de excepciones para robustecer los ejercicios.
+- Los controles de Windows Forms como DataGridView son útiles para mostrar datos estructurados.
 
 ---
 
-**Última actualización:** 08/09/2026  
-**Versión:** 2.0  
+**Última actualización:** 13/09/2026  
+**Versión:** 3.0  
 **Estado:** Completado y entregado
