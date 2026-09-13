@@ -1,0 +1,14 @@
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\bin\Debug\net10.0\Juego_De_Craps_lab3.exe
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\bin\Debug\net10.0\Juego_De_Craps_lab3.deps.json
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\bin\Debug\net10.0\Juego_De_Craps_lab3.runtimeconfig.json
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\bin\Debug\net10.0\Juego_De_Craps_lab3.dll
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\bin\Debug\net10.0\Juego_De_Craps_lab3.pdb
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\obj\Debug\net10.0\Juego_De_Craps_lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\obj\Debug\net10.0\Juego_De_Craps_lab3.AssemblyInfoInputs.cache
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\obj\Debug\net10.0\Juego_De_Craps_lab3.AssemblyInfo.cs
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\obj\Debug\net10.0\Juego_De_Craps_lab3.csproj.CoreCompileInputs.cache
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\obj\Debug\net10.0\Juego_De_Craps_lab3.dll
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\obj\Debug\net10.0\refint\Juego_De_Craps_lab3.dll
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\obj\Debug\net10.0\Juego_De_Craps_lab3.pdb
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\obj\Debug\net10.0\Juego_De_Craps_lab3.genruntimeconfig.cache
+C:\Users\Leonel Mendoza\Documents\HPA3\Juego_De_Craps_lab3\obj\Debug\net10.0\ref\Juego_De_Craps_lab3.dll

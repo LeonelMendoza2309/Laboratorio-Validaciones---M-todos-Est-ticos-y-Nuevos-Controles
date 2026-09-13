@@ -1,0 +1,11 @@
+C:\Users\Leonel Mendoza\Documents\HPA3\MDI-Forms\bin\Debug\MDI-Forms.exe.config
+C:\Users\Leonel Mendoza\Documents\HPA3\MDI-Forms\bin\Debug\MDI-Forms.exe
+C:\Users\Leonel Mendoza\Documents\HPA3\MDI-Forms\bin\Debug\MDI-Forms.pdb
+C:\Users\Leonel Mendoza\Documents\HPA3\MDI-Forms\obj\Debug\MDI-Forms.csproj.AssemblyReference.cache
+C:\Users\Leonel Mendoza\Documents\HPA3\MDI-Forms\obj\Debug\MDI_Forms.Form1.resources
+C:\Users\Leonel Mendoza\Documents\HPA3\MDI-Forms\obj\Debug\MDI_Forms.Form2.resources
+C:\Users\Leonel Mendoza\Documents\HPA3\MDI-Forms\obj\Debug\MDI_Forms.Properties.Resources.resources
+C:\Users\Leonel Mendoza\Documents\HPA3\MDI-Forms\obj\Debug\MDI-Forms.csproj.GenerateResource.cache
+C:\Users\Leonel Mendoza\Documents\HPA3\MDI-Forms\obj\Debug\MDI-Forms.csproj.CoreCompileInputs.cache
+C:\Users\Leonel Mendoza\Documents\HPA3\MDI-Forms\obj\Debug\MDI-Forms.exe
+C:\Users\Leonel Mendoza\Documents\HPA3\MDI-Forms\obj\Debug\MDI-Forms.pdb

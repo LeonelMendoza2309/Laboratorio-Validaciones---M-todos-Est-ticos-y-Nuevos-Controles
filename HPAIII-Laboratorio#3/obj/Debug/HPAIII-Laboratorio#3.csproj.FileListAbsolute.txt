@@ -1,0 +1,10 @@
+C:\Users\Leonel Mendoza\Documents\HPA3\HPAIII-Laboratorio#3\bin\Debug\HPAIII-Laboratorio#3.exe.config
+C:\Users\Leonel Mendoza\Documents\HPA3\HPAIII-Laboratorio#3\bin\Debug\HPAIII-Laboratorio#3.exe
+C:\Users\Leonel Mendoza\Documents\HPA3\HPAIII-Laboratorio#3\bin\Debug\HPAIII-Laboratorio#3.pdb
+C:\Users\Leonel Mendoza\Documents\HPA3\HPAIII-Laboratorio#3\obj\Debug\HPAIII-Laboratorio#3.csproj.AssemblyReference.cache
+C:\Users\Leonel Mendoza\Documents\HPA3\HPAIII-Laboratorio#3\obj\Debug\HPAIII_Laboratorio_3.Form1.resources
+C:\Users\Leonel Mendoza\Documents\HPA3\HPAIII-Laboratorio#3\obj\Debug\HPAIII_Laboratorio_3.Properties.Resources.resources
+C:\Users\Leonel Mendoza\Documents\HPA3\HPAIII-Laboratorio#3\obj\Debug\HPAIII-Laboratorio#3.csproj.GenerateResource.cache
+C:\Users\Leonel Mendoza\Documents\HPA3\HPAIII-Laboratorio#3\obj\Debug\HPAIII-Laboratorio#3.csproj.CoreCompileInputs.cache
+C:\Users\Leonel Mendoza\Documents\HPA3\HPAIII-Laboratorio#3\obj\Debug\HPAIII-Laboratorio#3.exe
+C:\Users\Leonel Mendoza\Documents\HPA3\HPAIII-Laboratorio#3\obj\Debug\HPAIII-Laboratorio#3.pdb
